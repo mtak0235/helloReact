@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.8455536d.css","mappings":"AAAC,mBACI,uBAAwB,CACxB,UACJ,CCHD,kBACI,aACJ","sources":["Button.module.css","App.module.css"],"sourcesContent":[" .btn {\n     background-color: tomato;\n     color: white;\n }",".title {\n    color: rgb(71, 165, 165);\n}"],"names":[],"sourceRoot":""}
