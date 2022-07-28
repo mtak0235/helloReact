@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function ToDo () {
     const [toDo, setToDo] = useState("");
     const [toDos, setToDos] = useState([]);
     const onSubmit = (event) => {
         event.preventDefault();
-        if (toDo =="")
+        if (toDo === "")
             return ;
         setToDos((currentArray) => [...currentArray, toDo]);
         setToDo("");
